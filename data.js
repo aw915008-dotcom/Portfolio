@@ -10,8 +10,8 @@ const PROFILE = {
   location: "Cairo, Egypt",
   email: "aw915008@gmail.com",
   phone: "+20 155 479 3927",
-  photo: "assets/images/profile.jpg",
-  cv: "assets/cv/Ahmed_Waled_Resume.pdf",
+  photo: "profile.jpg",
+  cv: "Ahmed_Waled_Resume.pdf",
   tagline: "I build machine learning systems that turn raw, messy data into decisions — from the database schema to the deployed interface.",
   summary:
     "I build machine learning systems that turn raw, messy data into decisions — from the database schema to the deployed interface. I'm a Computer Science student in the Machine Learning track, currently completing a Data Science & AI diploma alongside my degree. My focus is the full lifecycle of a data product: cleaning and modeling the data, training and evaluating the algorithm, then shipping it behind an API and a frontend someone can actually use. Recent work spans healthcare prediction, retail analytics, resume screening and customer churn — usually with a SQL or MongoDB backend, a Scikit-learn or TensorFlow model at the core, and a Streamlit or React interface on top. Alongside the ML side, I'm just as comfortable in pure data analysis and BI — building executive dashboards in Excel and Tableau that turn a raw dataset into KPIs a business can actually act on. I like projects that don't stop at a notebook.",
@@ -51,7 +51,7 @@ const PROJECTS = [
     shortDescription: "NLP-powered system that scores and ranks resumes against a job description.",
     description:
       "An AI-powered resume screening system that automates candidate evaluation by comparing resumes against a specific job description. It uses NLP and machine learning to analyze candidate profiles, surface relevant skills and experience, and calculate a compatibility score — then ranks every candidate against the role.",
-    image: "assets/images/project-resume-screening.jpg",
+    image: "project-resume-screening.jpg",
     category: "NLP",
     technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "NLP", "Sentence Transformers", "MongoDB", "PyMongo", "Streamlit", "Plotly"],
     date: "2026",
@@ -82,7 +82,7 @@ const PROJECTS = [
     shortDescription: "End-to-end churn prediction system with a full analytics dashboard and live prediction API.",
     description:
       "An end-to-end customer churn prediction system combining data science, machine learning, MongoDB, and a modern web application to identify customers likely to churn — with an interactive dashboard for exploring behavior, monitoring model performance, and predicting churn probability in real time.",
-    image: "assets/images/project-churn.jpg",
+    image: "project-churn.jpg",
     category: "Machine Learning",
     technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "MongoDB", "FastAPI", "React", "Vite", "Tailwind CSS", "Plotly"],
     date: "2026",
@@ -184,7 +184,7 @@ const PROJECTS = [
     shortDescription: "Interactive Excel dashboard tracking sales, delivery performance, and top markets.",
     description:
       "An interactive executive sales dashboard built in Microsoft Excel, giving leadership a single view of sales performance and operations — total sales, orders, average selling price, platform breakdown, top categories, delivery status, and top-performing areas.",
-    image: "assets/images/project-misuo-excel.jpg",
+    image: "project-misuo-excel.jpg",
     category: "Data Analysis",
     technologies: ["Microsoft Excel", "Pivot Tables", "Pivot Charts", "Slicers", "Data Visualization", "Dashboard Design"],
     date: "2026",
@@ -209,7 +209,7 @@ const PROJECTS = [
     shortDescription: "Tableau dashboard analyzing workforce attrition, demographics, and job satisfaction.",
     description:
       "An interactive HR analytics dashboard built in Tableau to analyze employee attrition, demographics, job roles, and job satisfaction, with dynamic filters to support HR decision-making.",
-    image: "assets/images/project-hr-tableau.jpg",
+    image: "project-hr-tableau.jpg",
     category: "Data Analysis",
     technologies: ["Tableau", "Data Visualization", "Interactive Dashboards", "KPI Analysis", "HR Analytics"],
     date: "2026",
